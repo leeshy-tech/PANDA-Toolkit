@@ -104,14 +104,10 @@ def parse_panda_rect(annopath, annomode, showwidth):
                 if objcate == 'person':
                     personpose = object_dict['riding type'] if object_dict['pose'] == 'riding' else object_dict['pose']
                     fullrect = RectDict2List(object_dict['rects']['full body'], imgwidth, imgheight, scale)
-                    visiblerect = RectDict2List(object_dict['rects']['visible body'], imgwidth, imgheight, scale)
-                    headrect = RectDict2List(object_dict['rects']['head'], imgwidth, imgheight, scale)
                     parsed.append({
                         'ignore': False,
                         'cate': personpose,
-                        'fullrect': fullrect,
-                        'visiblerect': visiblerect,
-                        'headrect': headrect
+                        'fullrect': fullrect
                     })
                 else:
                     rect = RectDict2List(object_dict['rect'], imgwidth, imgheight, scale)

@@ -243,21 +243,15 @@ class ImgSplit():
                 riding = object_dict['riding type']
                 age = object_dict['age']
                 fullrect = object_dict['rects']['full body']
-                visiblerect = object_dict['rects']['visible body']
-                headrect = object_dict['rects']['head']
                 # only keep a person whose 3 box all satisfy the requirement
-                if self.judgeRect(fullrect, imgwidth, imgheight, coordinates) & \
-                   self.judgeRect(visiblerect, imgwidth, imgheight, coordinates) & \
-                   self.judgeRect(headrect, imgwidth, imgheight, coordinates):
+                if self.judgeRect(fullrect, imgwidth, imgheight, coordinates):
                     newobjlist.append({
                         "category": objcate,
                         "pose": pose,
                         "riding type": riding,
                         "age": age,
                         "rects": {
-                            "head": self.restrainRect(headrect, imgwidth, imgheight, coordinates),
-                            "visible body": self.restrainRect(visiblerect, imgwidth, imgheight, coordinates),
-                            "full body": self.restrainRect(fullrect, imgwidth, imgheight, coordinates)
+                            "head": self.restrainRect(headrect, imgwidth, imgheight, coordinates)
                         }
                     })
             else:

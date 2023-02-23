@@ -52,7 +52,7 @@ class PANDA_IMAGE:
 
     def showImgs(self, imgrequest=None, range=10, imgfilters=[], shuffle=True):
         """
-        :param imgrequest: list, images names you want to request, eg. ['1-HIT_canteen/IMG_1_4.jpg', ...]
+        :param imgrequest: list, images names you want to request, eg. ['01_University_Canteen/IMG_01_01.jp', ...]
         :param range: number of image to show
         :param imgfilters: essential keywords in image name
         :param shuffle: shuffle all image
@@ -170,7 +170,7 @@ class PANDA_IMAGE:
                 b = random.randint(0, 255)
                 g = random.randint(0, 255)
                 r = random.randint(0, 255)
-                for rect in [objdict['fullrect'], objdict['visiblerect'], objdict['headrect']]:
+                for rect in [objdict['fullrect']]:
                     xmin, ymin, xmax, ymax = rect
                     cv2.rectangle(img, (xmin, ymin), (xmax, ymax), (b, g, r), 1)
                 xmin, ymin, _, _ = objdict['fullrect']
@@ -212,7 +212,7 @@ class PANDA_IMAGE:
                 b = random.randint(0, 255)
                 g = random.randint(0, 255)
                 r = random.randint(0, 255)
-                for rect in [objdict['fullrect'], objdict['visiblerect'], objdict['headrect']]:
+                for rect in [objdict['fullrect']]:
                     xmin, ymin, xmax, ymax = rect
                     cv2.rectangle(img, (xmin, ymin), (xmax, ymax), (b, g, r), 1)
                 xmin, ymin, _, _ = objdict['fullrect']
