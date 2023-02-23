@@ -184,7 +184,7 @@ def GT2DetRes(gtpath, outdetpath):
         imgheight = imgdict['image size']['height']
         for obj in imgdict['objects list']:
             if obj['category'] == 'person':
-                rect = RectDict2List(obj['rects']['visible body'], imgwidth, imgheight, 1, mode='tlwh')
+                rect = RectDict2List(obj['rects']['full body'], imgwidth, imgheight, 1, mode='tlwh')
             else:
                 rect = RectDict2List(obj['rect'], imgwidth, imgheight, 1, mode='tlwh')
             outputlist.append({

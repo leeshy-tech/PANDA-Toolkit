@@ -251,7 +251,7 @@ class ImgSplit():
                         "riding type": riding,
                         "age": age,
                         "rects": {
-                            "head": self.restrainRect(headrect, imgwidth, imgheight, coordinates)
+                            "full body": self.restrainRect(fullrect, imgwidth, imgheight, coordinates)
                         }
                     })
             else:
