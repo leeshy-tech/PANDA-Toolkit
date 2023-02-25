@@ -80,7 +80,7 @@ class DetResMerge():
             srcfile, paras = filename.split('___')
             srcfile = srcfile.replace('_IMG', '/IMG') + self.imgext
             srcimageid = srcanno[srcfile]['image id']
-            scale, left, up = paras.replace(self.imgext, '').split('__')
+            scale, num ,left, up = paras.replace(self.imgext, '').split('__')
             for objdict in objlist:
                 mergedresults[srcimageid].append([*recttransfer(objdict['bbox'], float(scale), int(left), int(up)),
                       objdict['score'], objdict['category_id']])

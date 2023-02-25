@@ -138,17 +138,19 @@ class ImgSplit():
         outbasename = imgname.replace('/', '_').split('.')[0] + '___' + str(scale) + '__'
         subimageannos = {}
         left, up = 0, 0
+        num = 0
         while left < imgwidth:
             if left + self.subwidth >= imgwidth:
                 left = max(imgwidth - self.subwidth, 0)
             up = 0
             while up < imgheight:
+                num += 1
                 if up + self.subheight >= imgheight:
                     up = max(imgheight - self.subheight, 0)
                 right = min(left + self.subwidth, imgwidth - 1)
                 down = min(up + self.subheight, imgheight - 1)
                 coordinates = left, up, right, down
-                subimgname = outbasename + str(left) + '__' + str(up) + self.outext
+                subimgname = outbasename + str(num) + '__' + str(left) + '__' + str(up) + self.outext
                 self.savesubimage(resizeimg, subimgname, coordinates)
                 # split annotations according to annotation mode
                 if self.annomode == 'person':
