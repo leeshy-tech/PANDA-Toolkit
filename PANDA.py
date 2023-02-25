@@ -83,6 +83,7 @@ class PANDA_IMAGE:
             if img is None:
                 continue
             cv2.putText(img, 'Press any button to continue', (0, 25), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+            cv2.namedWindow(util.custombasename(imgname),cv2.WINDOW_NORMAL)
             cv2.imshow(util.custombasename(imgname), img)
             cv2.waitKey(0)
 
@@ -136,6 +137,7 @@ class PANDA_IMAGE:
             if saveimg:
                 cv2.imwrite(os.path.join(savedir, util.custombasename(imgname) + '.jpg'), imgwithann)
             cv2.putText(img, 'Press any button to continue', (0, 25), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+            cv2.namedWindow('image_with_anno',cv2.WINDOW_NORMAL)
             cv2.imshow('image_with_anno', imgwithann)  # image_with_anno --> util.custombasename(imgname)
             cv2.waitKey(0)
 
