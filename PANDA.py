@@ -1,6 +1,7 @@
 # --------------------------------------------------------
-# Visualization modules for PANDA
-# Written by Wang Xueyang  (wangxuey19@mails.tsinghua.edu.cn), Version 20200523
+# Tool kit function demonstration
+# Modified by LiSai (saili@bupt.edu.cn), version 20230224
+# Written by Wang Xueyang (wangxuey19@mails.tsinghua.edu.cn), Version 20200523
 # Inspired from DOTA dataset devkit (https://github.com/CAPTAIN-WHU/DOTA_devkit)
 # --------------------------------------------------------
 
