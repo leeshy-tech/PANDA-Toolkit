@@ -37,3 +37,7 @@ GigaVision Challenge (<a href="https://www.biendata.com/competition/gigavision/"
 4. Split the large image, you can refer to the "ImgSplit.py"
 5. Merging the results detected on the patches, you can refer to the "ResultMerge.py"
 
+### leeshy
+The former repo is outdated,because the PANDA dataset's format changed.
+
+I fix some bugs in the image part,but not in the video part.

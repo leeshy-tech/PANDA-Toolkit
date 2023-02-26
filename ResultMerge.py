@@ -13,40 +13,30 @@ from collections import defaultdict
 
 class DetResMerge():
     def __init__(self,
-                 basepath,
-                 resfile,
-                 splitannofile,
-                 srcannofile,
-                 outpath,
+                 imgpath,
+                 respath,
+                 splitannopath,
+                 srcannopath,
                  outfile,
                  imgext='.jpg',
                  code='utf-8',
                  ):
         """
-        :param basepath: base directory for panda image data and annotations
         :param resfile: detection result file path
         :param splitannofile: generated split annotation file
         :param srcannofile: source annotation file
         :param resmode: detection result mode, which can be 'person', 'vehicle', 'headbbox' or 'headpoint'
-        :param outpath: output base path for merged result file
         :param outfile: name for merged result file
         :param imgext: ext for the split image format
         """
-        self.basepath = basepath
-        self.resfile = resfile
-        self.splitannofile = splitannofile
-        self.srcannofile = srcannofile
-        self.outpath = outpath
         self.outfile = outfile
         self.imgext = imgext
         self.code = code
-        self.imgpath = os.path.join(self.basepath, 'PANDA_IMAGE')
-        self.respath = os.path.join(self.basepath, 'results', resfile)
-        self.splitannopath = os.path.join(self.basepath, 'image_annos', splitannofile)
-        self.srcannopath = os.path.join(self.basepath, 'image_annos', srcannofile)
+        self.imgpath = imgpath
+        self.respath = respath
+        self.splitannopath = splitannopath
+        self.srcannopath = srcannopath
         self.imagepaths = util.GetFileFromThisRootDir(self.imgpath, ext='jpg')
-        if not os.path.exists(self.outpath):
-            os.makedirs(self.outpath)
         self.results = defaultdict(list)
         self.indexResults()
 
@@ -100,7 +90,7 @@ class DetResMerge():
                     "bbox": tlbr2tlwh(obj[:4]),
                     "score": obj[4]
                 })
-        with open(os.path.join(self.outpath, self.outfile), 'w', encoding=self.code) as f:
+        with open(self.outfile, 'w', encoding=self.code) as f:
             dict_str = json.dumps(savelist, indent=2)
             f.write(dict_str)
 

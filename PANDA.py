@@ -16,9 +16,8 @@ IMAGE_ANNO_MODE = ('person', 'vehicle', 'person&vehicle', 'headbbox', 'headpoint
 
 
 class PANDA_IMAGE:
-    def __init__(self, basepath, annofile, annomode, extraannofile=None, showwidth=1280):
+    def __init__(self, imagepath, annopath, annomode, showwidth=1280):
         """
-        :param basepath: base directory for panda image data and annotations
         :param annofile: annotation file path
         :param annomode: the type of annotation, which can be 'person', 'vehicle', 'person&vehicle', 'headbbox' or 'headpoint'
         :param extraannofile: if you want to show person and vehicle annotations simultaneously,
@@ -27,14 +26,9 @@ class PANDA_IMAGE:
         """
         assert annomode in IMAGE_ANNO_MODE, 'Annotation mode must be \'person\', \'vehicle\', \'person&vehicle\', \'headbox\' or \'headpoint\''
         self.annomode = annomode
-        self.basepath = basepath
-        self.annofile = annofile
-        self.extraannofile = extraannofile
         self.showwidth = showwidth
-        self.imagepath = os.path.join(basepath, 'image_train')
-        self.annopath = os.path.join(basepath, 'image_annos', annofile)
-        if extraannofile:
-            self.extraannopath = os.path.join(basepath, 'image_annos', extraannofile)
+        self.imagepath = imagepath
+        self.annopath = annopath
         self.imgpaths = util.GetFileFromThisRootDir(self.imagepath, ext='jpg')
         self.annos = defaultdict(list)
         self.extraannos = defaultdict(list)

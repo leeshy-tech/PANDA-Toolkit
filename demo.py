@@ -9,21 +9,12 @@ from PANDA import PANDA_IMAGE, PANDA_VIDEO
 import panda_utils as util
 from ImgSplit import ImgSplit
 from ResultMerge import DetResMerge
-
-def show_image(image_root,annofile,annomode,image_name,annos=False):
-    example = PANDA_IMAGE(image_root, annofile, annomode='person')
-    if annos:
-        example.showAnns([image_name])
-    else:
-        example.showImgs([image_name])
-
-def split_images(image_root,image_list,anno_file,subwidth=2048,subheight=1024):
-    split = ImgSplit(image_root, anno_file, annomode="person", outpath='split', 
-                    outannofile='split.json',subwidth=subwidth,subheight=subheight)
-    split.splitdata(0.5,image_list)
-
+from pathlib import Path
 
 if __name__ == '__main__':
+    FILE = Path(__file__).resolve() 
+    ROOT = str(FILE.parents[0])  #demo.py 's path
+    PANDA_image_path = "D:\Project\PANDA_image"
     '''
     Note:
         you should download the PANDA dataset(https://www.gigavision.cn/track/track/?nav=Detection),
@@ -35,22 +26,20 @@ if __name__ == '__main__':
                 └─image_train
     '''
     '''
-    show images or images with annos
+    1. show images or images with annos
     '''
-    # show_image(image_root='D:\Project\PANDA_image', 
-    #     annofile='person_bbox_train.json', 
-    #     annomode='person', 
-    #     image_name='01_University_Canteen/IMG_01_01.jpg',
-    #     annos=True)
-
-    # show_image(image_root='D:\Project\PANDA-Toolkit\split', 
-    #     annofile='split.json', 
-    #     annomode='person', 
-    #     image_name='01_University_Canteen_IMG_01_01___0.5__2772__2772.jpg',
-    #     annos=True)
+    # example = PANDA_IMAGE(
+    #     imagepath= PANDA_image_path + "\image_train",
+    #     annopath= PANDA_image_path + "\image_annos\person_bbox_train.json",
+    #     annomode='person'
+    #     )
+    
+    # example.showImgs(["01_University_Canteen/IMG_01_01.jpg"])
+    # or
+    # example.showImgs(["01_University_Canteen/IMG_01_01.jpg"])
 
     '''
-    3. Split Image And Label
+    2. Split Image And Label
     We provide the scale param before split the images and labels.
     the splitted data path:
         └─PANDA_Toolkit
@@ -60,13 +49,29 @@ if __name__ == '__main__':
                 └─image_train
     Before your operation,please make sure the "image_train" package is empty
     '''
-    # split_images(image_root='D:\Project\PANDA_image', 
-    #     image_list=["01_University_Canteen/IMG_01_01.jpg"],
-    #     anno_file='person_bbox_train.json',
-    #     subwidth=1024,
-    #     subheight=1024)
+    # # split the image
+    # split = ImgSplit(imagepath = PANDA_image_path + '\image_train', 
+    #         annopath= PANDA_image_path + '\image_annos\person_bbox_train.json', annomode="person", 
+    #         outimagepath = ROOT +'\split\image_train',
+    #         outannopath = ROOT + "\split\image_annos\split.json",
+    #         subwidth=1024,subheight=1024)
+    # split.splitdata(0.5,["01_University_Canteen/IMG_01_01.jpg"])
+
+    # # show the splited image and annos
+    # example = PANDA_IMAGE(
+    #     imagepath= ROOT + "\split\image_train",
+    #     annopath= ROOT + "\split\image_annos\split.json",
+    #     annomode='person'
+    #     )
+    # # make sure the name is right 
+    # example = PANDA_IMAGE(
+    #     imagepath= ROOT + "\split\image_train",
+    #     annopath= ROOT + "\split\image_annos\split.json",
+    #     annomode='person'
+    #     )
+    # example.showAnns(["01_University_Canteen_IMG_01_01___0.5__00004__0__2772.jpg"])
     '''
-    4. Merge patches
+    3. Merge patches
     Now, we will merge these patches to see if they can be restored in the initial large images
     '''
     '''
@@ -79,17 +84,37 @@ if __name__ == '__main__':
         in order to visualize detection results using PANDA_IMAGE apis. 
         Noted that DetRes2GT is not yet fully designed and can only transfer objects from single category 
         (visible body). If you have other requirements, please make your own changes.
+    indeed the name of the function is ugly,but it works.
+    the merged data path:
+        └─ PANDA_Toolkit
+            └─ merge
+                ├─ fake_result.json
+                ├─ merge_COCO.json
+                └─ merge_PANDA.json
     '''
-    # generate fake detection results by GT
-    util.GT2DetRes('split/image_annos/split.json', 'split/results/res.json')
-    # merge detection results
-    merge = DetResMerge('split', 'res.json', 'split.json', 'person_bbox_train.json', 'results', 'mergetest.json')
-    # NMS
-    merge.mergeResults(is_nms=True)
-    # detection results -> groundtruth
-    util.DetRes2GT('results/mergetest.json', 'D:\Project\PANDA_image\image_annos\mergegt.json', 
-        'D:\Project\PANDA-Toolkit\split\image_annos\person_bbox_train.json')
+    # src_anno_file = PANDA_image_path + "\image_annos\person_bbox_train.json"
+    # fake_result_annos = ROOT + "\merge\\fake_result.json"
+    # merge_COCO_annos = ROOT+"\merge\merge_COCO.json"
+    # merge_PANDA_annos = ROOT+"\merge\merge_PANDA.json"
+    # # generate fake detection results
+    # util.GT2DetRes(gtpath=ROOT + "\split\image_annos\split.json", outdetpath=fake_result_annos)
+    # # merge detection results
+    # merge = DetResMerge(
+    #     imgpath=PANDA_image_path,
+    #     respath=fake_result_annos,
+    #     splitannopath=ROOT + "\split\image_annos\split.json",
+    #     srcannopath=src_anno_file,
+    #     outfile=merge_COCO_annos
+    #     )
+    # # NMS
+    # merge.mergeResults(is_nms=True)
+    # # COCO format to PANDA format
+    # util.DetRes2GT(
+    #     detrespath=merge_COCO_annos, 
+    #     outgtpath=merge_PANDA_annos, 
+    #     gtannopath=src_anno_file
+    # )
 
-    '''show merged results'''
-    example = PANDA_IMAGE('D:\Project\PANDA_image', 'mergegt.json', annomode='vehicle')
-    example.showAnns(["01_University_Canteen/IMG_01_01.jpg"])
+    # # show merged results
+    # example = PANDA_IMAGE(imagepath=PANDA_image_path+"\image_train",annopath=merge_PANDA_annos, annomode='vehicle')
+    # example.showAnns(["01_University_Canteen/IMG_01_01.jpg"])

@@ -13,11 +13,11 @@ from collections import defaultdict
 
 class ImgSplit():
     def __init__(self,
-                 basepath,
-                 annofile,
+                 imagepath,
+                 annopath,
                  annomode,
-                 outpath,
-                 outannofile,
+                 outimagepath,
+                 outannopath,
                  code='utf-8',
                  gap=100,
                  subwidth=2048,
@@ -26,11 +26,7 @@ class ImgSplit():
                  outext='.jpg'
                  ):
         """
-        :param basepath: base directory for panda image data and annotations
-        :param annofile: annotation file path
         :param annomode:the type of annotation, which can be 'person', 'vehicle', 'headbbox' or 'headpoint'
-        :param outpath: output base path for panda data
-        :param outannofile: output file path for annotation
         :param code: encodeing format of txt file
         :param gap: overlap between two patches
         :param subwidth: sub-width of patch
@@ -38,11 +34,9 @@ class ImgSplit():
         :param thresh: the square thresh determine whether to keep the instance which is cut in the process of split
         :param outext: ext for the output image format
         """
-        self.basepath = basepath
-        self.annofile = annofile
+        self.imagepath = imagepath
+        self.annopath = annopath
         self.annomode = annomode
-        self.outpath = outpath
-        self.outannofile = outannofile
         self.code = code
         self.gap = gap
         self.subwidth = subwidth
@@ -50,10 +44,8 @@ class ImgSplit():
         self.slidewidth = self.subwidth - self.gap
         self.slideheight = self.subheight - self.gap
         self.thresh = thresh
-        self.imagepath = os.path.join(self.basepath, 'image_train')
-        self.annopath = os.path.join(self.basepath, 'image_annos', annofile)
-        self.outimagepath = os.path.join(self.outpath, 'image_train')
-        self.outannopath = os.path.join(self.outpath, 'image_annos')
+        self.outimagepath = outimagepath
+        self.outannopath = outannopath
         self.outext = outext
         if not os.path.exists(self.outimagepath):
             os.makedirs(self.outimagepath)
@@ -96,7 +88,7 @@ class ImgSplit():
             splitannos[imagename]['image id'] = imgid
             imgid += 1
         # save new annotation for split images
-        outdir = os.path.join(self.outannopath, self.outannofile)
+        outdir = self.outannopath
         with open(outdir, 'w', encoding=self.code) as f:
             dict_str = json.dumps(splitannos, indent=2)
             f.write(dict_str)
@@ -150,7 +142,7 @@ class ImgSplit():
                 right = min(left + self.subwidth, imgwidth - 1)
                 down = min(up + self.subheight, imgheight - 1)
                 coordinates = left, up, right, down
-                subimgname = outbasename + str(num) + '__' + str(left) + '__' + str(up) + self.outext
+                subimgname = outbasename + str(num).zfill(5) + '__' + str(left) + '__' + str(up) + self.outext
                 self.savesubimage(resizeimg, subimgname, coordinates)
                 # split annotations according to annotation mode
                 if self.annomode == 'person':

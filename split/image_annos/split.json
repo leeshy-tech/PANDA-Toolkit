@@ -1,0 +1,2476 @@
+{
+  "01_University_Canteen_IMG_01_01___0.5__00001__0__0.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 1
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00002__0__924.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 2
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00003__0__1848.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 3
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00004__0__2772.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "standing",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.857421875,
+              "y": 0.5986328125
+            },
+            "br": {
+              "x": 1.0,
+              "y": 0.9833984375
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "standing",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.81640625,
+              "y": 0.6142578125
+            },
+            "br": {
+              "x": 0.9453125,
+              "y": 0.9697265625
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.4765625,
+              "y": 0.6611328125
+            },
+            "br": {
+              "x": 0.6474609375,
+              "y": 1.0
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.33203125,
+              "y": 0.67578125
+            },
+            "br": {
+              "x": 0.568359375,
+              "y": 1.0
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.1953125,
+              "y": 0.642578125
+            },
+            "br": {
+              "x": 0.435546875,
+              "y": 1.0
+            }
+          }
+        }
+      }
+    ],
+    "image id": 4
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00005__0__3696.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 5
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00006__0__4620.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 6
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00007__0__5544.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 7
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00008__0__6468.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 8
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00009__0__6502.jpg": {
+    "image size": {
+      "height": 1024,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 9
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00010__924__0.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 10
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00011__924__924.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 11
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00012__924__1848.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 12
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00013__924__2772.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.1640625,
+              "y": 0.66015625
+            },
+            "br": {
+              "x": 0.333984375,
+              "y": 1.0
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "standing",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.0,
+              "y": 0.5986328125
+            },
+            "br": {
+              "x": 0.1142578125,
+              "y": 0.9833984375
+            }
+          }
+        }
+      }
+    ],
+    "image id": 13
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00014__924__3696.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 14
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00015__924__4620.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 15
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00016__924__5544.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 16
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00017__924__6468.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 17
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00018__924__6502.jpg": {
+    "image size": {
+      "height": 1024,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 18
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00019__1848__0.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 19
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00020__1848__924.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 20
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00021__1848__1848.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 21
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00022__1848__2772.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.4736328125,
+              "y": 0.6103515625
+            },
+            "br": {
+              "x": 0.6611328125,
+              "y": 0.9501953125
+            }
+          }
+        }
+      }
+    ],
+    "image id": 22
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00023__1848__3696.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 23
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00024__1848__4620.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 24
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00025__1848__5544.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 25
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00026__1848__6468.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 26
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00027__1848__6502.jpg": {
+    "image size": {
+      "height": 1024,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 27
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00028__2772__0.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 28
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00029__2772__924.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 29
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00030__2772__1848.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.4443359375,
+              "y": 0.38671875
+            },
+            "br": {
+              "x": 0.4755859375,
+              "y": 0.4560546875
+            }
+          }
+        }
+      },
+      {
+        "category": "ignore",
+        "rect": {
+          "tl": {
+            "x": 0.6650390625,
+            "y": 0.767578125
+          },
+          "br": {
+            "x": 0.7197265625,
+            "y": 0.85546875
+          }
+        }
+      },
+      {
+        "category": "ignore",
+        "rect": {
+          "tl": {
+            "x": 0.9609375,
+            "y": 0.94140625
+          },
+          "br": {
+            "x": 0.982421875,
+            "y": 0.990234375
+          }
+        }
+      },
+      {
+        "category": "ignore",
+        "rect": {
+          "tl": {
+            "x": 0.6025390625,
+            "y": 0.7490234375
+          },
+          "br": {
+            "x": 0.6376953125,
+            "y": 0.7958984375
+          }
+        }
+      }
+    ],
+    "image id": 30
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00031__2772__2772.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.3701171875,
+              "y": 0.423828125
+            },
+            "br": {
+              "x": 0.5146484375,
+              "y": 0.8037109375
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.240234375,
+              "y": 0.4453125
+            },
+            "br": {
+              "x": 0.3837890625,
+              "y": 0.82421875
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.0947265625,
+              "y": 0.44140625
+            },
+            "br": {
+              "x": 0.224609375,
+              "y": 0.82421875
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.5986328125,
+              "y": 0.0673828125
+            },
+            "br": {
+              "x": 0.7158203125,
+              "y": 0.298828125
+            }
+          }
+        }
+      },
+      {
+        "category": "ignore",
+        "rect": {
+          "tl": {
+            "x": 0.708984375,
+            "y": 0.0546875
+          },
+          "br": {
+            "x": 0.7431640625,
+            "y": 0.2529296875
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.6630859375,
+              "y": 0.2548828125
+            },
+            "br": {
+              "x": 0.791015625,
+              "y": 0.5654296875
+            }
+          }
+        }
+      },
+      {
+        "category": "ignore",
+        "rect": {
+          "tl": {
+            "x": 0.9609375,
+            "y": 0.0390625
+          },
+          "br": {
+            "x": 0.982421875,
+            "y": 0.087890625
+          }
+        }
+      }
+    ],
+    "image id": 31
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00032__2772__3696.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 32
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00033__2772__4620.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 33
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00034__2772__5544.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 34
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00035__2772__6468.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 35
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00036__2772__6502.jpg": {
+    "image size": {
+      "height": 1024,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 36
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00037__3696__0.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 37
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00038__3696__924.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 38
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00039__3696__1848.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.2314453125,
+              "y": 0.5556640625
+            },
+            "br": {
+              "x": 0.287109375,
+              "y": 0.669921875
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.2001953125,
+              "y": 0.572265625
+            },
+            "br": {
+              "x": 0.2431640625,
+              "y": 0.6923828125
+            }
+          }
+        }
+      },
+      {
+        "category": "ignore",
+        "rect": {
+          "tl": {
+            "x": 0.271484375,
+            "y": 0.5869140625
+          },
+          "br": {
+            "x": 0.3056640625,
+            "y": 0.6435546875
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.115234375,
+              "y": 0.5751953125
+            },
+            "br": {
+              "x": 0.1689453125,
+              "y": 0.703125
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "null",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.15625,
+              "y": 0.5830078125
+            },
+            "br": {
+              "x": 0.2001953125,
+              "y": 0.69921875
+            }
+          }
+        }
+      },
+      {
+        "category": "ignore",
+        "rect": {
+          "tl": {
+            "x": 0.05859375,
+            "y": 0.94140625
+          },
+          "br": {
+            "x": 0.080078125,
+            "y": 0.990234375
+          }
+        }
+      }
+    ],
+    "image id": 39
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00040__3696__2772.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "ignore",
+        "rect": {
+          "tl": {
+            "x": 0.05859375,
+            "y": 0.0390625
+          },
+          "br": {
+            "x": 0.080078125,
+            "y": 0.087890625
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "unsure",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.052734375,
+              "y": 0.044921875
+            },
+            "br": {
+              "x": 0.1435546875,
+              "y": 0.3095703125
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "unsure",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.1064453125,
+              "y": 0.03515625
+            },
+            "br": {
+              "x": 0.1796875,
+              "y": 0.2880859375
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.16015625,
+              "y": 0.04296875
+            },
+            "br": {
+              "x": 0.2548828125,
+              "y": 0.2978515625
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.23828125,
+              "y": 0.02734375
+            },
+            "br": {
+              "x": 0.3212890625,
+              "y": 0.2802734375
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "unsure",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.0341796875,
+              "y": 0.1240234375
+            },
+            "br": {
+              "x": 0.1298828125,
+              "y": 0.4111328125
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "unsure",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.1064453125,
+              "y": 0.13671875
+            },
+            "br": {
+              "x": 0.2177734375,
+              "y": 0.4150390625
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.0595703125,
+              "y": 0.27734375
+            },
+            "br": {
+              "x": 0.16796875,
+              "y": 0.623046875
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.1357421875,
+              "y": 0.2919921875
+            },
+            "br": {
+              "x": 0.2421875,
+              "y": 0.6318359375
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.30078125,
+              "y": 0.2822265625
+            },
+            "br": {
+              "x": 0.4345703125,
+              "y": 0.6142578125
+            }
+          }
+        }
+      }
+    ],
+    "image id": 40
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00041__3696__3696.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 41
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00042__3696__4620.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 42
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00043__3696__5544.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 43
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00044__3696__6468.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 44
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00045__3696__6502.jpg": {
+    "image size": {
+      "height": 1024,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 45
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00046__4620__0.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 46
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00047__4620__924.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 47
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00048__4620__1848.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 48
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00049__4620__2772.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "standing",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.294921875,
+              "y": 0.2255859375
+            },
+            "br": {
+              "x": 0.3740234375,
+              "y": 0.537109375
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.87109375,
+              "y": 0.28515625
+            },
+            "br": {
+              "x": 1.0,
+              "y": 0.603515625
+            }
+          }
+        }
+      }
+    ],
+    "image id": 49
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00050__4620__3696.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 50
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00051__4620__4620.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 51
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00052__4620__5544.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 52
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00053__4620__6468.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 53
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00054__4620__6502.jpg": {
+    "image size": {
+      "height": 1024,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 54
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00055__5544__0.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 55
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00056__5544__924.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 56
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00057__5544__1848.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 57
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00058__5544__2772.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.0,
+              "y": 0.28515625
+            },
+            "br": {
+              "x": 0.146484375,
+              "y": 0.603515625
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "riding",
+        "riding type": "bicycle rider",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.2119140625,
+              "y": 0.474609375
+            },
+            "br": {
+              "x": 0.4072265625,
+              "y": 0.853515625
+            }
+          }
+        }
+      },
+      {
+        "category": "ignore",
+        "rect": {
+          "tl": {
+            "x": 0.4833984375,
+            "y": 0.46484375
+          },
+          "br": {
+            "x": 0.5498046875,
+            "y": 0.564453125
+          }
+        }
+      }
+    ],
+    "image id": 58
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00059__5544__3696.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 59
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00060__5544__4620.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 60
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00061__5544__5544.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 61
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00062__5544__6468.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 62
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00063__5544__6502.jpg": {
+    "image size": {
+      "height": 1024,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 63
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00064__6468__0.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 64
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00065__6468__924.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 65
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00066__6468__1848.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 66
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00067__6468__2772.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.04296875,
+              "y": 0.2080078125
+            },
+            "br": {
+              "x": 0.171875,
+              "y": 0.51953125
+            }
+          }
+        }
+      }
+    ],
+    "image id": 67
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00068__6468__3696.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 68
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00069__6468__4620.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 69
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00070__6468__5544.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 70
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00071__6468__6468.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 71
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00072__6468__6502.jpg": {
+    "image size": {
+      "height": 1024,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 72
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00073__7392__0.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 73
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00074__7392__924.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 74
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00075__7392__1848.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 75
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00076__7392__2772.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 76
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00077__7392__3696.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 77
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00078__7392__4620.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 78
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00079__7392__5544.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 79
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00080__7392__6468.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 80
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00081__7392__6502.jpg": {
+    "image size": {
+      "height": 1024,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 81
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00082__8316__0.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 82
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00083__8316__924.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 83
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00084__8316__1848.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.1943359375,
+            "y": 0.9375
+          },
+          "br": {
+            "x": 0.2392578125,
+            "y": 1.0
+          }
+        }
+      },
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.380859375,
+            "y": 0.91796875
+          },
+          "br": {
+            "x": 0.392578125,
+            "y": 0.935546875
+          }
+        }
+      },
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.408203125,
+            "y": 0.9150390625
+          },
+          "br": {
+            "x": 0.4228515625,
+            "y": 0.9345703125
+          }
+        }
+      },
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.4384765625,
+            "y": 0.9140625
+          },
+          "br": {
+            "x": 0.451171875,
+            "y": 0.93359375
+          }
+        }
+      },
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.4697265625,
+            "y": 0.9248046875
+          },
+          "br": {
+            "x": 0.478515625,
+            "y": 0.9365234375
+          }
+        }
+      },
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.4697265625,
+            "y": 0.94921875
+          },
+          "br": {
+            "x": 0.4765625,
+            "y": 0.958984375
+          }
+        }
+      },
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.8056640625,
+            "y": 0.8955078125
+          },
+          "br": {
+            "x": 0.8193359375,
+            "y": 0.912109375
+          }
+        }
+      },
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.8330078125,
+            "y": 0.8935546875
+          },
+          "br": {
+            "x": 0.8486328125,
+            "y": 0.9111328125
+          }
+        }
+      }
+    ],
+    "image id": 84
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00085__8316__2772.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.1943359375,
+            "y": 0.03515625
+          },
+          "br": {
+            "x": 0.2392578125,
+            "y": 0.1240234375
+          }
+        }
+      },
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.193359375,
+            "y": 0.0791015625
+          },
+          "br": {
+            "x": 0.2119140625,
+            "y": 0.125
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.1708984375,
+              "y": 0.0595703125
+            },
+            "br": {
+              "x": 0.306640625,
+              "y": 0.3740234375
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.26171875,
+              "y": 0.060546875
+            },
+            "br": {
+              "x": 0.3447265625,
+              "y": 0.3798828125
+            }
+          }
+        }
+      },
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.380859375,
+            "y": 0.015625
+          },
+          "br": {
+            "x": 0.392578125,
+            "y": 0.033203125
+          }
+        }
+      },
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.408203125,
+            "y": 0.0126953125
+          },
+          "br": {
+            "x": 0.4228515625,
+            "y": 0.0322265625
+          }
+        }
+      },
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.4384765625,
+            "y": 0.01171875
+          },
+          "br": {
+            "x": 0.451171875,
+            "y": 0.03125
+          }
+        }
+      },
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.4697265625,
+            "y": 0.0224609375
+          },
+          "br": {
+            "x": 0.478515625,
+            "y": 0.0341796875
+          }
+        }
+      },
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.4697265625,
+            "y": 0.046875
+          },
+          "br": {
+            "x": 0.4765625,
+            "y": 0.056640625
+          }
+        }
+      }
+    ],
+    "image id": 85
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00086__8316__3696.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 86
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00087__8316__4620.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 87
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00088__8316__5544.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.0986328125,
+              "y": 0.0
+            },
+            "br": {
+              "x": 0.4189453125,
+              "y": 0.7783203125
+            }
+          }
+        }
+      }
+    ],
+    "image id": 88
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00089__8316__6468.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 89
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00090__8316__6502.jpg": {
+    "image size": {
+      "height": 1024,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 90
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00091__9240__0.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 91
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00092__9240__924.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 92
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00093__9240__1848.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.5126953125,
+            "y": 0.87890625
+          },
+          "br": {
+            "x": 0.5498046875,
+            "y": 0.935546875
+          }
+        }
+      },
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.6943359375,
+            "y": 0.9111328125
+          },
+          "br": {
+            "x": 0.705078125,
+            "y": 0.92578125
+          }
+        }
+      }
+    ],
+    "image id": 93
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00094__9240__2772.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.6943359375,
+            "y": 0.0087890625
+          },
+          "br": {
+            "x": 0.705078125,
+            "y": 0.0234375
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.5048828125,
+              "y": 0.267578125
+            },
+            "br": {
+              "x": 0.671875,
+              "y": 0.662109375
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.330078125,
+              "y": 0.435546875
+            },
+            "br": {
+              "x": 0.5048828125,
+              "y": 0.9111328125
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.1689453125,
+              "y": 0.53125
+            },
+            "br": {
+              "x": 0.333984375,
+              "y": 0.9990234375
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.7734375,
+              "y": 0.59375
+            },
+            "br": {
+              "x": 1.0,
+              "y": 1.0
+            }
+          }
+        }
+      }
+    ],
+    "image id": 94
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00095__9240__3696.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 95
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00096__9240__4620.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 96
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00097__9240__5544.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 97
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00098__9240__6468.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 98
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00099__9240__6502.jpg": {
+    "image size": {
+      "height": 1024,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 99
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00100__10164__0.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 100
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00101__10164__924.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 101
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00102__10164__1848.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 102
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00103__10164__2772.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "standing",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.123046875,
+              "y": 0.0
+            },
+            "br": {
+              "x": 0.2158203125,
+              "y": 0.2060546875
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.2373046875,
+              "y": 0.0
+            },
+            "br": {
+              "x": 0.365234375,
+              "y": 0.2568359375
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "riding",
+        "riding type": "motorcycle rider",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.28515625,
+              "y": 0.0107421875
+            },
+            "br": {
+              "x": 0.4453125,
+              "y": 0.306640625
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.1044921875,
+              "y": 0.599609375
+            },
+            "br": {
+              "x": 0.294921875,
+              "y": 1.0
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.6142578125,
+              "y": 0.5341796875
+            },
+            "br": {
+              "x": 0.8037109375,
+              "y": 1.0
+            }
+          }
+        }
+      },
+      {
+        "category": "fake person",
+        "rect": {
+          "tl": {
+            "x": 0.6904296875,
+            "y": 0.6787109375
+          },
+          "br": {
+            "x": 0.71484375,
+            "y": 0.71484375
+          }
+        }
+      }
+    ],
+    "image id": 103
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00104__10164__3696.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 104
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00105__10164__4620.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 105
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00106__10164__5544.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 106
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00107__10164__6468.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 107
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00108__10164__6502.jpg": {
+    "image size": {
+      "height": 1024,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 108
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00109__11088__0.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 109
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00110__11088__924.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 110
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00111__11088__1848.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 111
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00112__11088__2772.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.298828125,
+              "y": 0.2333984375
+            },
+            "br": {
+              "x": 0.43359375,
+              "y": 0.5703125
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.3994140625,
+              "y": 0.1181640625
+            },
+            "br": {
+              "x": 0.5390625,
+              "y": 0.4697265625
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.5576171875,
+              "y": 0.12890625
+            },
+            "br": {
+              "x": 0.6845703125,
+              "y": 0.47265625
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.5302734375,
+              "y": 0.1884765625
+            },
+            "br": {
+              "x": 0.6611328125,
+              "y": 0.5078125
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.4931640625,
+              "y": 0.2373046875
+            },
+            "br": {
+              "x": 0.65625,
+              "y": 0.59765625
+            }
+          }
+        }
+      }
+    ],
+    "image id": 112
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00113__11088__3696.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "standing",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.6484375,
+              "y": 0.0
+            },
+            "br": {
+              "x": 0.83203125,
+              "y": 0.4990234375
+            }
+          }
+        }
+      }
+    ],
+    "image id": 113
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00114__11088__4620.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 114
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00115__11088__5544.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 115
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00116__11088__6468.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 116
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00117__11088__6502.jpg": {
+    "image size": {
+      "height": 1024,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 117
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00118__12012__0.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 118
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00119__12012__924.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 119
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00120__12012__1848.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.759765625,
+              "y": 0.712890625
+            },
+            "br": {
+              "x": 0.8583984375,
+              "y": 0.9677734375
+            }
+          }
+        }
+      }
+    ],
+    "image id": 120
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00121__12012__2772.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.412109375,
+              "y": 0.5009765625
+            },
+            "br": {
+              "x": 0.58984375,
+              "y": 0.9482421875
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "unsure",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.5810546875,
+              "y": 0.5673828125
+            },
+            "br": {
+              "x": 0.7783203125,
+              "y": 0.9697265625
+            }
+          }
+        }
+      }
+    ],
+    "image id": 121
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00122__12012__3696.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 122
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00123__12012__4620.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 123
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00124__12012__5544.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 124
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00125__12012__6468.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 125
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00126__12012__6502.jpg": {
+    "image size": {
+      "height": 1024,
+      "width": 1025
+    },
+    "objects list": [],
+    "image id": 126
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00127__12352__0.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1024
+    },
+    "objects list": [],
+    "image id": 127
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00128__12352__924.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1024
+    },
+    "objects list": [],
+    "image id": 128
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00129__12352__1848.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1024
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.4281524926686217,
+              "y": 0.712890625
+            },
+            "br": {
+              "x": 0.5268817204301075,
+              "y": 0.9677734375
+            }
+          }
+        }
+      }
+    ],
+    "image id": 129
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00130__12352__2772.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1024
+    },
+    "objects list": [
+      {
+        "category": "person",
+        "pose": "walking",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.0801564027370479,
+              "y": 0.5009765625
+            },
+            "br": {
+              "x": 0.25806451612903225,
+              "y": 0.9482421875
+            }
+          }
+        }
+      },
+      {
+        "category": "person",
+        "pose": "unsure",
+        "riding type": "null",
+        "age": "adult",
+        "rects": {
+          "full body": {
+            "tl": {
+              "x": 0.24926686217008798,
+              "y": 0.5673828125
+            },
+            "br": {
+              "x": 0.4467253176930596,
+              "y": 0.9697265625
+            }
+          }
+        }
+      }
+    ],
+    "image id": 130
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00131__12352__3696.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1024
+    },
+    "objects list": [],
+    "image id": 131
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00132__12352__4620.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1024
+    },
+    "objects list": [],
+    "image id": 132
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00133__12352__5544.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1024
+    },
+    "objects list": [],
+    "image id": 133
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00134__12352__6468.jpg": {
+    "image size": {
+      "height": 1025,
+      "width": 1024
+    },
+    "objects list": [],
+    "image id": 134
+  },
+  "01_University_Canteen_IMG_01_01___0.5__00135__12352__6502.jpg": {
+    "image size": {
+      "height": 1024,
+      "width": 1024
+    },
+    "objects list": [],
+    "image id": 135
+  }
+}
