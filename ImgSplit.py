@@ -26,7 +26,11 @@ class ImgSplit():
                  outext='.jpg'
                  ):
         """
+        :param imagepath:image path 
+        :param annopath:anno path
         :param annomode:the type of annotation, which can be 'person', 'vehicle', 'headbbox' or 'headpoint'
+        :param outimagepath:out image path
+        :param outannopath:out anno path
         :param code: encodeing format of txt file
         :param gap: overlap between two patches
         :param subwidth: sub-width of patch

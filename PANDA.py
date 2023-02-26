@@ -18,10 +18,9 @@ IMAGE_ANNO_MODE = ('person', 'vehicle', 'person&vehicle', 'headbbox', 'headpoint
 class PANDA_IMAGE:
     def __init__(self, imagepath, annopath, annomode, showwidth=1280):
         """
-        :param annofile: annotation file path
+        :param imagepath:the image package
+        :param annopath: the annotation file
         :param annomode: the type of annotation, which can be 'person', 'vehicle', 'person&vehicle', 'headbbox' or 'headpoint'
-        :param extraannofile: if you want to show person and vehicle annotations simultaneously,
-                                choose annomode 'person&vehicle' and send vehicle annotation file path into extraannofile
         :param showwidth: the width of visualized image
         """
         assert annomode in IMAGE_ANNO_MODE, 'Annotation mode must be \'person\', \'vehicle\', \'person&vehicle\', \'headbox\' or \'headpoint\''

@@ -35,7 +35,7 @@ if __name__ == '__main__':
     #     )
     
     # example.showImgs(["01_University_Canteen/IMG_01_01.jpg"])
-    # or
+    # # or
     # example.showImgs(["01_University_Canteen/IMG_01_01.jpg"])
 
     '''

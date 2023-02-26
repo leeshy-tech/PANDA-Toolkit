@@ -22,10 +22,10 @@ class DetResMerge():
                  code='utf-8',
                  ):
         """
-        :param resfile: detection result file path
-        :param splitannofile: generated split annotation file
-        :param srcannofile: source annotation file
-        :param resmode: detection result mode, which can be 'person', 'vehicle', 'headbbox' or 'headpoint'
+        :param imgpath:image path
+        :param respath: detection result file path
+        :param splitannopath: generated split annotation file
+        :param srcannopath: source annotation file
         :param outfile: name for merged result file
         :param imgext: ext for the split image format
         """
