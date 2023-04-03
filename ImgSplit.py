@@ -54,8 +54,6 @@ class ImgSplit():
         self.outext = outext
         if not os.path.exists(self.outimagepath):
             os.makedirs(self.outimagepath)
-        if not os.path.exists(self.outannopath):
-            os.makedirs(self.outannopath)
         self.annos = defaultdict(list)
         self.loadAnno()
 
@@ -136,14 +134,15 @@ class ImgSplit():
         subimageannos = {}
         left, up = 0, 0
         num = 0
-        while left < imgwidth:
-            if left + self.subwidth >= imgwidth:
-                left = max(imgwidth - self.subwidth, 0)
-            up = 0
-            while up < imgheight:
+
+        while up < imgheight:
+            if up + self.subheight >= imgheight:
+                up = max(imgheight - self.subheight,0)
+            left = 0
+            while left < imgwidth:
                 num += 1
-                if up + self.subheight >= imgheight:
-                    up = max(imgheight - self.subheight, 0)
+                if left + self.subwidth >= imgwidth:
+                    left = max(imgwidth - self.subwidth, 0)
                 right = min(left + self.subwidth, imgwidth - 1)
                 down = min(up + self.subheight, imgheight - 1)
                 coordinates = left, up, right, down
@@ -165,14 +164,51 @@ class ImgSplit():
                     },
                     "objects list": newobjlist
                 }
-                if up + self.subheight >= imgheight:
+                if left + self.subwidth >= imgwidth:
                     break
                 else:
-                    up = up + self.slideheight
-            if left + self.subwidth >= imgwidth:
+                    left = left + self.slidewidth
+            if up + self.subheight >= imgheight:
                 break
             else:
-                left = left + self.slidewidth
+                up = up + self.slideheight
+        # while left < imgwidth:
+        #     if left + self.subwidth >= imgwidth:
+        #         left = max(imgwidth - self.subwidth, 0)
+        #     up = 0
+        #     while up < imgheight:
+        #         num += 1
+        #         if up + self.subheight >= imgheight:
+        #             up = max(imgheight - self.subheight, 0)
+        #         right = min(left + self.subwidth, imgwidth - 1)
+        #         down = min(up + self.subheight, imgheight - 1)
+        #         coordinates = left, up, right, down
+        #         subimgname = outbasename + str(num).zfill(5) + '__' + str(left) + '__' + str(up) + self.outext
+        #         self.savesubimage(resizeimg, subimgname, coordinates)
+        #         # split annotations according to annotation mode
+        #         if self.annomode == 'person':
+        #             newobjlist = self.personAnnoSplit(objlist, imgwidth, imgheight, coordinates)
+        #         elif self.annomode == 'vehicle':
+        #             newobjlist = self.vehicleAnnoSplit(objlist, imgwidth, imgheight, coordinates)
+        #         elif self.annomode == 'headbbox':
+        #             newobjlist = self.headbboxAnnoSplit(objlist, imgwidth, imgheight, coordinates)
+        #         elif self.annomode == 'headpoint':
+        #             newobjlist = self.headpointAnnoSplit(objlist, imgwidth, imgheight, coordinates)
+        #         subimageannos[subimgname] = {
+        #             "image size": {
+        #                 "height": down - up + 1,
+        #                 "width": right - left + 1
+        #             },
+        #             "objects list": newobjlist
+        #         }
+        #         if up + self.subheight >= imgheight:
+        #             break
+        #         else:
+        #             up = up + self.slideheight
+        #     if left + self.subwidth >= imgwidth:
+        #         break
+        #     else:
+        #         left = left + self.slidewidth
 
         return subimageannos
 
