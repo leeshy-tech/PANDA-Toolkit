@@ -34,9 +34,9 @@ if __name__ == '__main__':
     #     annomode='person'
     #     )
     
-    # example.showImgs(["01_University_Canteen/IMG_01_01.jpg"])
+    # example.showImgs(["11_Shenzhen_Library/IMG_11_01.jpg"])
     # # or
-    # example.showImgs(["01_University_Canteen/IMG_01_01.jpg"])
+    # example.showAnns(["11_Shenzhen_Library/IMG_11_01.jpg"])
 
     '''
     2. Split Image And Label
@@ -54,8 +54,8 @@ if __name__ == '__main__':
     #         annopath= PANDA_image_path + '\image_annos\person_bbox_train.json', annomode="person", 
     #         outimagepath = ROOT +'\split\image_train',
     #         outannopath = ROOT + "\split\image_annos\split.json",
-    #         subwidth=1024,subheight=1024)
-    # split.splitdata(0.5,["01_University_Canteen/IMG_01_01.jpg"])
+    #         subwidth=[1000,2000,3000],subheight=[1000,2000,3000])
+    # split.splitdata(0.5,["11_Shenzhen_Library/IMG_11_01.jpg"])
 
     # # show the splited image and annos
     # example = PANDA_IMAGE(
@@ -64,12 +64,7 @@ if __name__ == '__main__':
     #     annomode='person'
     #     )
     # # make sure the name is right 
-    # example = PANDA_IMAGE(
-    #     imagepath= ROOT + "\split\image_train",
-    #     annopath= ROOT + "\split\image_annos\split.json",
-    #     annomode='person'
-    #     )
-    # example.showAnns(["01_University_Canteen_IMG_01_01___0.5__00004__0__2772.jpg"])
+    # example.showAnns(["11_Shenzhen_Library_IMG_11_01___0.5__00114__13064__8300.jpg"])
     '''
     3. Merge patches
     Now, we will merge these patches to see if they can be restored in the initial large images
@@ -117,4 +112,4 @@ if __name__ == '__main__':
 
     # # show merged results
     # example = PANDA_IMAGE(imagepath=PANDA_image_path+"\image_train",annopath=merge_PANDA_annos, annomode='vehicle')
-    # example.showAnns(["01_University_Canteen/IMG_01_01.jpg"])
+    # example.showAnns(["11_Shenzhen_Library/IMG_11_01.jpg"])
