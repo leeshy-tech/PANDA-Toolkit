@@ -21,7 +21,8 @@ if __name__ == '__main__':
         "10_Ceremony",
         "11_Shenzhen_Library",
         "12_Basketball_Court",
-        "13_University_Playground"
+        "13_University_Playground",
+        "all"
     ]
     vehicle_list = [
         "small car",
@@ -43,7 +44,7 @@ if __name__ == '__main__':
             annodict = json.load(load_f)
             for (imagename, imagedict) in annodict.items():
                 image_scene = imagename.split("/")[0]
-                if image_scene != scene:
+                if image_scene != scene and scene != "all":
                     continue
                 height = imagedict["image size"]["height"]
                 objlist = imagedict["objects list"]
@@ -70,7 +71,7 @@ if __name__ == '__main__':
             annodict = json.load(load_f)
             for (imagename, imagedict) in annodict.items():
                 image_scene = imagename.split("/")[0]
-                if image_scene != scene:
+                if image_scene != scene and scene != "all":
                     continue
                 height = imagedict["image size"]["height"]
                 width = imagedict["image size"]["width"]
